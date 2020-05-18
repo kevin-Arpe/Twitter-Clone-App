@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <title>Twitter Clone App</title>
 </head>
 <body>
-    
+    <!-- header -->
+    <header>
+        <i class="fab fa-twitter"></i>
+        <input type="text" class="searchBar" placeholder="트위터 검색" />
+        <div class="header_signBtn">
+            <div class="signBtn_signIn"></div>
+            <div class="signBtn_signUp"></div>
+            <i>menuBtn</i>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- main section -->
+        <section>
+            <!-- main section title -->
+            <div class="title">
+                <span>탐색하기</span>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <!-- main section advertise -->
+            <div class="advertise">
+                <img src="spring.jpg" width="640px" height="330px">
+                <span>Advertise title at left-botton side</span>
+            </div>
+            <!-- main section article -->
+            <div class="article">
+                <div class="article_title">나를 위한 트렌드</div>
+                <ul>
+                    <li>
+                        <div class="article_contentBox">
+                            <div class="trend">
+                                <span class="country">대한민국에서 트렌드 중</span>
+                                <span class="username">흑운장</span>
+                                <span class="twit_num">1,245 트윗</span>
+                            </div>
+                            <div class="sideBtn"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="article_contentBox">
+                            <div class="trend">
+                                <span class="country">대한민국에서 트렌드 중</span>
+                                <span class="username">틴트 하나</span>
+                                <span class="twit_num">4,869 트윗</span>
+                            </div>
+                            <div class="sideBtn"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="article_contentBox">
+                            <div class="trend">
+                                <span class="country">대한민국에서 트렌드 중</span>
+                                <span class="username">영통군인</span>
+                                <span class="twit_num">97,675 트윗</span>
+                            </div>
+                            <div class="sideBtn"></div>
+                        </div>
+                    </li>
+                </ul>
+                <a href="">더 보기</a>
+            </div>
+        </section>
+
+        <!-- main_sidebar -->
+        <sidebar>
+            <div class="advertise">
+                <img src="spring.jpg" width="240px" height="240px">
+                <span>지금 전 세계에서 무슨 일이 일어나고 있는지 알아보세요0</span>
+            </div>
+            <div class="signIn"></div>
+            <div class="sidebar_footer">
+                <span>이용약관 개인정보 처리방침 쿠키 광고 정보</span>
+                <br>
+                <span>더 보기  &copy; 2020. Twitter, Inc</span>
+            </div>
+        </sidebar>
+    </main>
 </body>
 </html>
