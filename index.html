@@ -8,84 +8,96 @@
     <title>Twitter Clone App</title>
 </head>
 <body>
-    <!-- header -->
-    <header>
-        <i class="fab fa-twitter"></i>
-        <input type="text" class="searchBar" placeholder="트위터 검색" />
-        <div class="header_signBtn">
-            <div class="signBtn_signIn"></div>
-            <div class="signBtn_signUp"></div>
-            <i>menuBtn</i>
-        </div>
-    </header>
-
-    <!-- main -->
-    <main>
-
-        <!-- main section -->
-        <section>
-            <!-- main section title -->
-            <div class="title">
-                <span>탐색하기</span>
-                <i class="fas fa-ellipsis-v"></i>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <i class="fab fa-twitter"></i>
+            <input type="text" class="searchBar" placeholder="트위터 검색">
+            <div class="header_signBtn">
+            <div class="signBtn_signIn" onClick="alert('click!')">로그인</div>
+                <div class="signBtn_signUp">가입하기</div>
+                <i class="fas fa-ellipsis-h"></i>
             </div>
-            <!-- main section advertise -->
-            <div class="advertise">
-                <img src="spring.jpg" width="640px" height="330px">
-                <span>Advertise title at left-botton side</span>
-            </div>
-            <!-- main section article -->
-            <div class="article">
-                <div class="article_title">나를 위한 트렌드</div>
-                <ul>
-                    <li>
-                        <div class="article_contentBox">
+        </header>
+
+        <!-- main -->
+        <main>
+            <!-- main section -->
+            <section>
+                <!-- main section title -->
+                <div class="title">
+                    <span>탐색하기</span>
+                    <i class="fas fa-cog"></i>
+                </div>
+                <!-- main section advertise -->
+                <div class="advertise">
+                    <img src="spring.jpg">
+                    <div class="advertise_title">
+                        <span>이슈, 실시간</span>
+                        <br />
+                        <span class="title">4월 벚꽃 축제 현황</span>
+                    </div>
+                </div>
+                <!-- main section article -->
+                <div class="article">
+                    <div class="article_title">나를 위한 트렌드</div>
+                    <ul>
+                        <li class="article_contentBox">
                             <div class="trend">
                                 <span class="country">대한민국에서 트렌드 중</span>
                                 <span class="username">흑운장</span>
                                 <span class="twit_num">1,245 트윗</span>
                             </div>
-                            <div class="sideBtn"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="article_contentBox">
+                            <i class="fas fa-chevron-down"></i>
+                        </li>
+                        <li class="article_contentBox">
                             <div class="trend">
                                 <span class="country">대한민국에서 트렌드 중</span>
                                 <span class="username">틴트 하나</span>
                                 <span class="twit_num">4,869 트윗</span>
                             </div>
-                            <div class="sideBtn"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="article_contentBox">
+                            <i class="fas fa-chevron-down"></i>
+                        </li>
+                        <li class="article_contentBox">
                             <div class="trend">
                                 <span class="country">대한민국에서 트렌드 중</span>
                                 <span class="username">영통군인</span>
                                 <span class="twit_num">97,675 트윗</span>
                             </div>
-                            <div class="sideBtn"></div>
-                        </div>
-                    </li>
-                </ul>
-                <a href="">더 보기</a>
-            </div>
-        </section>
+                            <i class="fas fa-chevron-down"></i>
+                        </li>
+                    </ul>
+                    <div class="more">
+                        <a href="">더 보기</a>
+                    </div>
+                </div>
+            </section>
 
-        <!-- main_sidebar -->
-        <sidebar>
-            <div class="advertise">
-                <img src="spring.jpg" width="240px" height="240px">
-                <span>지금 전 세계에서 무슨 일이 일어나고 있는지 알아보세요0</span>
+            <!-- main_sidebar -->
+            <div class="sidebar">
+                <div class="sign_box">
+                    <article>
+                        <img src="mandala.png" width="240px" height="240px">
+                        <span>지금 전 세계에서 무슨 일이 일어나고 있는지 알아보세요.</span>
+                    </article>
+                    <div class="signInBox">
+                        <input type="email" placeholder="email">
+                        <input type="password" placeholder="password">
+                        <a href="">비밀번호를 잊으셨나요?</a>
+                    </div>
+                    <div class="BtnBox">
+                        <div class="signInBtn">로그인</div>
+                        <span>또는</span>
+                        <div class="signUpBtn">가입하기</div>
+                    </div>
+                </div>
+                <div class="sidebar_footer">
+                    <span>이용약관 개인정보 처리방침 쿠키 광고 정보</span>
+                    <br>
+                    <span>더 보기  &copy; 2020. Twitter, Inc</span>
+                </div>
             </div>
-            <div class="signIn"></div>
-            <div class="sidebar_footer">
-                <span>이용약관 개인정보 처리방침 쿠키 광고 정보</span>
-                <br>
-                <span>더 보기  &copy; 2020. Twitter, Inc</span>
-            </div>
-        </sidebar>
-    </main>
+        </main>
+    </div>
 </body>
 </html>
