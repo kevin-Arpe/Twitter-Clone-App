@@ -290,7 +290,25 @@ ul .article_contentBox .trend {
     font-size: 14px;
     font-weight: 600;
     color: var(--point-color);
+<<<<<<< HEAD
     text-align: center;
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnBox .signInBtn:hover {
+    border: 1px solid var(--point-color);
+    background-color: var(--point-color);
+    color: var(--white);
+}
+
+.BtnBox span {
+    margin: 12px 0;
+    font-size: 0.8rem;
+    color: gray;
+>>>>>>> 3906268c206c162eea282d9066594eb38b497124
 }
 
 .BtnBox .signUpBtn {
@@ -302,4 +320,35 @@ ul .article_contentBox .trend {
     font-size: 14px;
     font-weight: 600;
     color: #fff;
+<<<<<<< HEAD
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnBox .signUpBtn:hover {
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.sidebar .sidebar_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .sidebar_footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-left: 6px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.sidebar_footer ul li {
+    color: gray;
+    font-size: 0.6rem;
+    margin-right: 8px;
+>>>>>>> 3906268c206c162eea282d9066594eb38b497124
 }
