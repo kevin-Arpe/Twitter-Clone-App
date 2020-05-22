@@ -208,10 +208,12 @@ ul .article_contentBox .trend {
 .trend .country {
     font-size: 0.8rem;
     color: gray;
+    margin-bottom: 2px;
 }
 
 .trend .username {
     font-weight: 600;
+    margin-bottom: 2px;
 }
 
 .trend .twit_num {
@@ -228,6 +230,7 @@ ul .article_contentBox .trend {
     text-decoration: none;
     color: blue;
     padding: 0 12px;
+    font-size: 0.8rem;
 }
 
 .sidebar {
@@ -290,9 +293,6 @@ ul .article_contentBox .trend {
     font-size: 14px;
     font-weight: 600;
     color: var(--point-color);
-<<<<<<< HEAD
-    text-align: center;
-=======
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,7 +308,6 @@ ul .article_contentBox .trend {
     margin: 12px 0;
     font-size: 0.8rem;
     color: gray;
->>>>>>> 3906268c206c162eea282d9066594eb38b497124
 }
 
 .BtnBox .signUpBtn {
@@ -320,8 +319,6 @@ ul .article_contentBox .trend {
     font-size: 14px;
     font-weight: 600;
     color: #fff;
-<<<<<<< HEAD
-=======
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,5 +347,4 @@ ul .article_contentBox .trend {
     color: gray;
     font-size: 0.6rem;
     margin-right: 8px;
->>>>>>> 3906268c206c162eea282d9066594eb38b497124
 }
